@@ -25,7 +25,7 @@ class App extends Component {
    
     return (
 
-      <BrowserRouter>      
+      <BrowserRouter basename="/calendar" >      
           <Switch>
             {/* Authantication */}
             <Route path="/" exact component={Auth} />
