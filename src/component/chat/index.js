@@ -78,7 +78,7 @@ return(
     <div className='d-flex jet'>
     <Card className='w-100 mh-100 h-100 news_section my-auto mx-auto p-5'>
     <h4>Chat with Activity participants </h4>
-    <div className='createActivityRow w-50'>
+    <div className='createActivityRow w-75'>
       {/* {chatlist&&chatlist.length>0?
       chatlist.map((item)=>( */}
         <Card className='participatant singleChat comented_chat'>
