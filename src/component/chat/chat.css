@@ -24,6 +24,15 @@
     font-size: 1vw;
     color: grey;
 }
+.chat_user_name{
+    font-size: 1vw;
+    color: grey;
+    font-weight: 700;
+}
+.chatbox{
+    display: flex;
+    flex-direction: column;
+}
 /* .delete_chat{
     background-color: red;
     color: white;

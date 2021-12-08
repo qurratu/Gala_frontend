@@ -79,8 +79,8 @@ return(
     <Card className='w-100 mh-100 h-100 news_section my-auto mx-auto p-5'>
     <h4>Chat with Activity participants </h4>
     <div className='createActivityRow w-50'>
-      {chatlist&&chatlist.length>0?
-      chatlist.map((item)=>(
+      {/* {chatlist&&chatlist.length>0?
+      chatlist.map((item)=>( */}
         <Card className='participatant singleChat comented_chat'>
                      
        <div className='useImg w-25 h-100'>
@@ -90,8 +90,19 @@ return(
           />{" "}
          <image/>
        </div>
-       <div className=' chat_msg w-75 h-100'>fffffffffffffffffffffffff</div>
-       <Button
+       <div className='chatbox w-75 h-100'>
+        
+         <span className='chat_user_name '>
+         fffffffffffffffffffffffff
+         </span>
+         <span
+         className='chat_msg'
+         >
+           fffffffffffffffffffffffff
+         </span>
+         
+         </div>
+       {/* <Button
                                 variant="secondary"
                                 size="lg"
                                 // onClick={(e)=>deletechat(item.target.id)} 
@@ -100,15 +111,12 @@ return(
                                 className="addbtn h-100 w-25 ml-0"
                               >
                                 delete
-                                </Button>
-       {/* <div 
-      //  onClick={(e)=>deletechat(item.target.id)} 
-       className='w-25 delete_chat h-100'>delete</div> */}
+                                </Button> */}
     
           </Card>
-      ))
+      {/* ))
        : <div className='w-75'>No chat yet</div>
-    }
+    } */}
                   
                    <Card className='participatant singleChat'>
                      
