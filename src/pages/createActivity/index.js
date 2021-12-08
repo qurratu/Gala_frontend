@@ -38,9 +38,10 @@ const CreateActivity =()=>{
 
 
           const create_activity=(e)=>{
-            if(!file.product1.Price_product||!file.product2.Price_product||!file.product3.Price_product){
-              alert('please enter the amount of product')
-            }
+            e.preventDefault()
+            // if(!file.product1.Price_product||!file.product2.Price_product||!file.product3.Price_product){
+            //   alert('please enter the amount of product')
+            // }
             document.getElementById("careerLoader").classList.add("loading")
             e.preventDefault();
            
