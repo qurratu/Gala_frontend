@@ -1,0 +1,9 @@
+.participatant{
+    display: flex;
+    flex-direction: row !important;
+    width: 85% !important;
+    margin-top: 2%;
+    align-items: center;
+    margin-bottom: 2%;
+    box-shadow: 9px 7px 10px rgb(0 0 0 / 13%) !important;
+}

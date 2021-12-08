@@ -1,0 +1,210 @@
+.clinic-page-title{
+    background-color: #d5ecdb !important;
+    display: flex !important;
+    height: 180px;
+  }
+  
+  .clinic-title{
+    margin:auto !important;
+    font-size: 2rem !important;
+    color: #1da978 !important;
+    font-family: "TTCommons-DemiBold", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-weight: normal !important;
+  }
+  
+  .plan-free{
+  white-space: nowrap;
+  color: #909399;
+  }
+  
+  
+  .plan-premier {
+      display: inline-block;
+      background: linear-gradient(180deg, #ffe49e 0%, #e3a62e 100%);
+      border-radius: 3px;
+      white-space: nowrap;
+      color: #73390f;
+      font-style: normal;
+      font-size: 0.8rem;
+      font-family: "TTCommons-DemiBold", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-weight: normal !important;
+      line-height: 25px;
+      text-align: center;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      margin-left: 0;
+      padding: 0 12px;
+    }
+  
+  
+  .plan-premier-check {
+    display: inline-block;
+    position: relative;
+    top: -0.1em;
+    vertical-align: middle;
+  }
+  
+  .view-profile-btn{
+    background-color: #1da978 !important;
+      border-color: #1da978 !important;
+      text-align: center !important;
+      color: #fff !important;
+      text-decoration: none !important;
+      font-size: 1vw !important;
+      font-family: "TTCommons-DemiBold", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-weight: normal !important;
+      height: auto !important;
+      padding: 8px 20px !important;
+  }
+  .view-profile-btn:hover{
+    background-color: #4aba93 !important;
+  }
+  
+  .book-btn{
+    background-color: #fff !important;
+    border-color: #ccc !important; 
+    color: #4F6468 !important;
+    font-size: 1vw !important;
+      font-family: "TTCommons-DemiBold", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-weight: normal !important;
+      height: auto !important;
+      padding: 8px 20px !important;
+  }
+  .book-btn:hover{
+  color: #1da978 !important;
+  border-color: #bbe5d7 !important;
+  background-color: #e8f6f2 !important;
+  }
+  
+  .profile-title a{
+      font-size: 18px !important;
+      color: #4F6468 !important;
+      display: inline-block;
+      text-decoration: none !important;
+      font-family: "TTCommons-DemiBold", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-weight: normal !important;
+  }
+  
+  .profile-address{
+    font-size: 1.1vw;
+    font-weight: normal !important;
+    color: #4F6468 !important;
+  }
+  
+  .clinic-list-card{
+    margin-bottom: 25px !important;
+    width: 65%;
+    
+  }
+  .clinic-list-card:hover{
+    box-shadow: 0 8px 15px 0 rgb(0 0 0 / 10%) !important;
+      -webkit-transform: translateY(3px);
+      transform: translateY(-3px);
+      transition: all 0.2s ease;
+  }
+  
+  .clinic-map-icon{
+    color: #1da978 !important;
+    font-size: 18px !important;
+  }
+  .searchIcon{
+    color: white !important;
+    font-size: 1vw !important;
+  }
+  .useImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .chatIcon{
+    color: #1da978 !important;
+    font-size: 2vw!important;
+  }
+  
+  .claim-your-profile-title{
+    color: #1da978 !important;
+    font-size: 14px !important;
+    font-weight: 100 !important;
+  }
+  .unverified-title{
+    color: #757b7c !important;
+    font-weight: 200 !important;
+    font-size: 14px !important;
+  }
+  
+  
+  .page-item.active .page-link{
+    background-color:  #1da978 !important;
+    border-color: #1da978 !important;
+  }
+  
+  .show-fetch-data-details{
+    color: #4F6468 !important;
+    font-size: 0.9vw !important;
+    font-weight: normal !important;
+  }
+  
+  .no-records{
+    color: #4F6468 !important;
+  }
+  
+  .oh-no{
+    color: #4F6468 !important;
+    font-size: 2.2rem !important;
+    font-family: "TTCommons-DemiBold", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-weight: normal !important;
+  }
+  .home-breadcrumb .breadcrumb{
+    background-color: #f3fff600!important;
+    margin: 0 0 0 -16px;
+  }
+  .home-breadcrumb .breadcrumb-item a{
+    color:#1da978!important;
+  }
+  .home-breadcrumb .breadcrumb-item a:hover{
+    border-bottom: 3px solid #1da978;
+    text-decoration:none;
+  }
+   .card-header{
+      background-color: #fff!important;
+      border-bottom: none!important;
+      margin-top: -17px!important;
+      padding:0px!important;
+  }  
+  
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+
+
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .activityImage{
+    border: solid;
+  }

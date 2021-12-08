@@ -1,0 +1,67 @@
+.adminList{
+    color: white !important;
+    margin: 15%;
+    font-size: 1vw;
+}
+.activityList{
+    color: red !important;
+    /* margin: 15%; */
+    width: 100%;
+    padding-left: 2%;
+    font-size: 1vw;
+}
+/* .adminList:hover{
+    border: 0px !important;
+} */
+
+.joinedList{
+    overflow-y: scroll;
+    height: 75%;
+    padding-bottom: 10%;
+    margin-bottom: 10%;
+}
+.joinedactivity{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    display: flex !important;
+    height: 12% !important;
+    flex-direction: row;
+}
+.joinedactivity img{
+    object-fit: contain;
+    
+}
+.activity_logo{
+    width: 25%;
+    padding-right: 5%;
+}
+
+  
+    
+
+.schedule_time{
+    font-size: 0.7vw;
+    white-space: nowrap; 
+    width: 100%; 
+    height: 30%  !important;
+
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    color: #4F6468  !important;
+    display: inline-block;
+    text-decoration: none !important;
+    font-family: "TTCommons-DemiBold", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+   
+}
+.joined_title{
+    font-size: 0.9vw;
+    /* margin: 1% !important; */
+    /* color: grey; */
+    color: #4F6468 !important;
+    display: inline-block;
+    text-decoration: none !important;
+    font-family: "TTCommons-DemiBold", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-weight: normal !important;
+    font-weight: 500 !important;
+
+}

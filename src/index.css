@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family:  "Roboto" ;
+-webkit-text-size-adjust: auto;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+#root{
+  height: 100% ;
+  background-color: #E5E5E5;;
+  max-width: 100% !important;
+
+    
+}
+#root1{
+  height: 100% ;
+  background-color: #E5E5E5;;
+  max-width: 100% !important;
+}
+
+#root2{
+  height: 100%;
+  width: 100% !important;
+}
+
+html {
+  height: 100%;
+ width: 100%;
+}
+.aplyRet {
+  height: 100% !important;
+  padding: 0%,4%,0%,4% !important;
+  font-size: 1vw !important;
+  width: auto;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
